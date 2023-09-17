@@ -87,8 +87,9 @@ Let's explore a solution written in Java.
 class FizzBuzz {
 
     public static void main(String[] args) {
+        int i = 1;
 
-        for (int i = 1; i < 100; i++) {
+        while (i <= 100) {
 
             // Find out which numbers divide i.
             boolean divisibleBy3 = i % 3 == 0;
@@ -112,6 +113,7 @@ class FizzBuzz {
                 System.out.println(i);
 
             }
+            i++;
         }
     }
 }

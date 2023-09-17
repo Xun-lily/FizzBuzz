@@ -1,5 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        FizzBuzz.doBuzzFizz(5);
+        FizzBuzz.doFizzBuzz(5);
     }
 }
