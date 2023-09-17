@@ -7,7 +7,7 @@ public class Multiples {
                 count++;
             }
         }
-        System.out.println("There are " + count + " multiples of 3 or 5 below 1000.");
+        System.out.println( " Number of multiples of 3 or 5 below 1000: " + count);
     }
 
 }
